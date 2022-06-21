@@ -20,7 +20,7 @@ public class Array11 {
         count = scan.nextInt();
 
         System.out.println(count + " elements are now available to fill in with numbers.");
-        System.out.print("Choose now which "+ count + " numbers the elements should have.\n");
+        System.out.print("Choose now "+ count + " values the elements should have.\n");
         for (i=0; i<count; i++) {
             input[i] = scan.nextInt();
         }

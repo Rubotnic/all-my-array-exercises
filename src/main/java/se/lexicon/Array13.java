@@ -1,7 +1,6 @@
 package se.lexicon;
 
 import java.util.Arrays;
-import java.util.Scanner;
 /*
 13. Create two arrays with arbitrary size and fill one with random numbers.
 Then copy over the numbers from the array with random numbers so that the even
