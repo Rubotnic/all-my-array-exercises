@@ -15,12 +15,7 @@ public class Array3 {
             countries[2] = " New York,";
             countries[3] = " Stockholm";
 
-            System.out.print("String array: [");
-            System.out.print(countries[0]);
-            System.out.print(countries[1]);
-            System.out.print(countries[2]);
-            System.out.print(countries[3]);
-            System.out.print("]");
+            System.out.println(Arrays.toString(countries));
         }
     }
 }
