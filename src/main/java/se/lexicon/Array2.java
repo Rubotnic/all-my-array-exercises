@@ -9,10 +9,6 @@ public class Array2 {
 
     public static int indexOf(int array[], int b) {
 
-        if (array == null) {
-            return -1;
-        }
-
         int leng = array.length;
         int i = 0;
 
@@ -33,6 +29,5 @@ public class Array2 {
 
         System.out.println();
         System.out.println("Index position of number 5 is: " + indexOf(myArray, 5));
-        System.out.println("Index position of number 10 is: " + indexOf(myArray, 10));
     }
 }
