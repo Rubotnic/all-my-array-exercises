@@ -12,20 +12,21 @@ public class Array11 {
     public void exerEleven() {
 
         int count,i;
+
         int input[] = new int [100];
         int output[] = new int [100];
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter number 3 to give 3 elements numbers:");
+        System.out.println("Enter number 3 to set how many numbers you will use:");
         count = scan.nextInt();
 
-        System.out.println(count + " elements are now available to fill in with numbers.");
-        System.out.print("Choose now "+ count + " values the elements should have.\n");
+        System.out.println("Number " + count + " is now selected. Enter now " + count + " numbers.");
+
         for (i=0; i<count; i++) {
             input[i] = scan.nextInt();
         }
         for (i=0; i<count; i++) {
-            output[i] = input[count - i - 1];
+            output[i] = input[count - i -1];
 
             System.out.println(output[i] + " ");
         }
