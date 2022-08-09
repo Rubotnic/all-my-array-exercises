@@ -10,18 +10,17 @@ public class Array7 {
     public void exerSeven() {
 
         int[] numbers = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 12};
-
+        
         System.out.print("Array: ");
-        System.out.print(numbers[0] + " ");
-        System.out.print(numbers[1] + " ");
-        System.out.print(numbers[3] + " ");
-        System.out.print(numbers[6] + " ");
-        System.out.print(numbers[8] + " ");
-        System.out.println(numbers[9] + " ");
 
-        System.out.print("Odd Array: ");
-        System.out.print(numbers[0] + " ");
-        System.out.print(numbers[6] + " ");
-        System.out.print(numbers[8] + " ");
+        for(int arrayNumber: numbers)
+        System.out.print(arrayNumber + " ");
+        System.out.print('\n' + "Odd Array: " );
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0) {
+                System.out.print(numbers[i] + " ");
+            }
+        }
     }
 }
