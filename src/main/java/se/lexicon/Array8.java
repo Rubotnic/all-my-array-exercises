@@ -15,9 +15,9 @@ public class Array8 {
             for (int i=0; i<numbers.length; i++) {
                 System.out.print(numbers[i] + " ");
             }
-            for (int i = 0; i < numbers.length; i++) {
+            for (int i=0; i<numbers.length; i++) {
 
-                for (int j = i; j < numbers.length; j++) {
+                for (int j=i; j<numbers.length; j++) {
 
                     if (numbers[i] > numbers[j]) {
                         int temp = numbers[i];
@@ -26,8 +26,7 @@ public class Array8 {
                     }
                 }
             }
-
-            for (int i=0; i< numbers.length; i++) {
+            for (int i=0; i<numbers.length; i++) {
             }
             System.out.print('\n' + "Array without duplicate values: ");
 
