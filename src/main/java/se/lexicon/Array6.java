@@ -19,9 +19,6 @@ public class Array6 {
             i++;
         }
         float average = (sum / numbers.length);
-
-        double oneDecimal = average;
-        DecimalFormat df = new DecimalFormat("#.#");
-        System.out.print("Average is: "+ df.format(oneDecimal));
+        System.out.printf("%.1f", average);
     }
 }
