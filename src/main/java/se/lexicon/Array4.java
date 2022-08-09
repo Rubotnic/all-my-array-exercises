@@ -8,12 +8,12 @@ Elements from second array: 1 15 20
 public class Array4 {
 
     public void exerFour() {
+        
+        String[] text1 = {"Elements from first array: 1 15 20"};
+        String[] text2 = Arrays.copyOf(text1, text1.length + 1);
+        text2[1] = "Elements from second array: 1 15 20";
 
-        String text1 = "Elements from first array: 1 15 20";
-        System.out.println();
-        System.out.println(text1);
-
-        String replaceText = text1.replace("first","second");
-        System.out.println(replaceText);
+        for (String texts : text2) {
+            System.out.println(texts);
     }
 }
