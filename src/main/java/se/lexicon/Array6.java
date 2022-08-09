@@ -12,14 +12,16 @@ public class Array6 {
         int[] numbers = {43, 5, 23, 17, 2, 14};
 
         float sum = 0;
-
-        int i=0;
+        int i = 0;
 
         while(i < numbers.length) {
             sum += numbers[i];
             i++;
         }
         float average = (sum / numbers.length);
-        System.out.println("The average of this 6 numbers is " + average + ".");
+
+        double oneDecimal = average;
+        DecimalFormat df = new DecimalFormat("#.#");
+        System.out.print("Average is: "+ df.format(oneDecimal));
     }
 }
